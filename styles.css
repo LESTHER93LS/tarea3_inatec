@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex; /* Convertimos el encabezado en un contenedor flex */
+    align-items: center; /* Centramos verticalmente los elementos dentro del encabezado */
+    background-color: #000000;
+    padding: 20px;
+}
+
+/* Estilos para la imagen del logo */
+.logo {
+    width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
+    margin-right: 20px;
+}
+
+/* Estilos para la imagen principal */
+.main-image {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: orange;
+}
